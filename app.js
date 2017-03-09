@@ -6,7 +6,7 @@ var response = prompt("quel est le bon chiffre");
 
 console.log(response);
 
-if (solution = response) {
+if (solution == response) {
 	console.log ("gagner!");
 
 
