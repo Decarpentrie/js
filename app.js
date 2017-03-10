@@ -9,8 +9,8 @@ console.log(response);
 for (var response = 0; response < 3; response ++) {
 	
 	if (solution == response) {
-	console.log ("gagner!");
-	
+	alert("gagner!");
+	break;
 
 	
 	
@@ -25,7 +25,6 @@ console.log ("perdu");
 	prompt("perdu trop grand ");
 	
 }
-	
 }
 
 
